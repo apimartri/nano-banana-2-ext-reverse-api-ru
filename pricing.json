@@ -1,0 +1,24 @@
+{
+  "repo": "nano-banana-2-ext-reverse-api-ru",
+  "model": "gemini-3.1-flash-image-preview",
+  "display": "Nano Banana 2 Ext",
+  "route": "reverse",
+  "variant": "nano-banana-2-ext",
+  "snapshot": "2026-09-28",
+  "unit": "usd_per_image",
+  "tiers": {
+    "1K": 0.015,
+    "2K": 0.02,
+    "4K": 0.025
+  },
+  "variants": {
+    "default": [
+      "1K",
+      "2K",
+      "4K"
+    ]
+  },
+  "official_counterpart": "nano-banana-2 (gemini-3.1-flash-image-preview-official)",
+  "effective_note": "official route billed at ×0.8 group ratio; reverse route is flat per unit",
+  "source": "https://go.apimart.ai/k-92408d"
+}

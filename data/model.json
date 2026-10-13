@@ -1,0 +1,31 @@
+{
+  "id": "gemini-3.1-flash-image-preview",
+  "source": "https://apimart.ai/en/pricing",
+  "extracted_at": "2026-10-13T06:43:03Z",
+  "prices": {
+    "default": {
+      "list": 0.01875,
+      "effective": 0.015
+    },
+    "0.5K": {
+      "list": 0.01875,
+      "effective": 0.015
+    },
+    "1K": {
+      "list": 0.01875,
+      "effective": 0.015
+    },
+    "2K": {
+      "list": 0.025,
+      "effective": 0.02
+    },
+    "4K": {
+      "list": 0.03125,
+      "effective": 0.025
+    }
+  },
+  "rates": {},
+  "unit": "usd_per_image",
+  "hook": "from $0.015 per image (0.5K $0.015 · 1K $0.015 · 2K $0.02)",
+  "model_page": "https://apimart.ai/model/nano-banana-2-api"
+}

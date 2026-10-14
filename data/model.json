@@ -1,31 +1,29 @@
 {
-  "id": "gemini-3.1-flash-image-preview",
+  "id": "gemini-3-pro-image-preview",
+  "alias": "nano-banana-pro-ext",
+  "official": "gemini-3-pro-image-preview-official",
   "source": "https://apimart.ai/en/pricing",
-  "extracted_at": "2026-10-13T06:43:03Z",
+  "extracted_at": "2026-10-14T06:57:04Z",
   "prices": {
     "default": {
-      "list": 0.01875,
-      "effective": 0.015
-    },
-    "0.5K": {
-      "list": 0.01875,
-      "effective": 0.015
-    },
-    "1K": {
-      "list": 0.01875,
-      "effective": 0.015
-    },
-    "2K": {
-      "list": 0.025,
-      "effective": 0.02
+      "list": 0.0375,
+      "effective": 0.03
     },
     "4K": {
-      "list": 0.03125,
-      "effective": 0.025
+      "list": 0.05,
+      "effective": 0.04
     }
   },
-  "rates": {},
-  "unit": "usd_per_image",
-  "hook": "from $0.015 per image (0.5K $0.015 · 1K $0.015 · 2K $0.02)",
-  "model_page": "https://apimart.ai/model/nano-banana-2-api"
+  "official_prices": {
+    "per_million_tokens": {
+      "effective": {
+        "text_input": 1.6,
+        "cached_text_input": 0,
+        "image_input": 1.6,
+        "cached_image_input": 0,
+        "text_output": 9.6,
+        "image_output": 96
+      }
+    }
+  }
 }
